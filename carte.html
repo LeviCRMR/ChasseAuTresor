@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="carte.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <title>Chasse au trésor</title>
+    <table border="0" cellspacing="0" id="tableauTotal">
+        <tr>
+            <td>
+                <div class="cadre">
+                    Capitaine, cliquez sur un endroit de la carte pour voir si le trésor s'y trouve, fiez vous au
+                    compteur et à la légende, et essayez de toucher le pactole avant les autres pirates !<br><br>
+                </div>
+                <p id="joursDeChasse">
+                    Nombre de jours de chasse : <span id="compte">0</span>
+                </p>
+                <div class="titre2">Légende</div>
+            </td>
+            <td>
+                <div id="titre"> Chasse au trésor </div>
+                <div class="cadre">
+                    Vous êtes un pirate, et comme tout pirate qui se respecte, vous avez dépensé toutes vos pièces d'or
+                    dans différents types de plaisirs.<br>
+                    Et pire encore ! Vous vous êtes endetté auprès de tous ceux qui vous entourent, y compris votre
+                    équipage
+                    !<br>
+                    Il vous faut désormais parcourir les mers au plus vite pour rembourser tous ces gens qui commencent
+                    à sérieusement envisager de vous tuer.
+                    Vous vous apprêtez donc à voguer avec votre perroquet sur votre chapeau, pour trouver l'ultime
+                    trésor qui peut être caché autant sur les mers que sous la terre...<br>
+                    <br>
+                </div>
+                <div class="titre2">Carte</div><br><br><br><br>
+            </td>
+        </tr>
+        <tr>
+            <td id="contenuLegende" width="500px">
+                <span><div id="displayLegende"></div></span>
+                <br>
+            </td>
+            <td id="tableTablal">
+                <table border="1" cellspacing="0" id="tablal"></table>
+            </td>
+        </tr>
+    </table>
+</body>
+<script type="text/javascript" src="classeSurprise.js"></script>
+<script type="text/javascript" src="carte.js"></script>
+</html>
